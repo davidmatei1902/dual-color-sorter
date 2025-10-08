@@ -2,11 +2,11 @@
 
 An automated conveyor-belt system that classifies objects by color (e.g., orange or blue) and redirects them using a motorized paddle. This educational prototype uses an ultrasonic distance sensor and a color sensor to detect, classify, and sort objects in real time.
 
-## 📌 Overview
+## Overview
 
 The Dual Color Sorter is a microcontroller-based prototype that demonstrates the core principles of automated sorting in logistics and manufacturing. It uses basic sensors and actuators controlled by an Arduino Uno to classify and redirect small objects based on color.
 
-## ✨ Features
+## Features
 
 - **Automatic object sorting** based on detected color
 - **Color classification** using the TCS230 sensor (default: orange vs. blue)
@@ -15,7 +15,7 @@ The Dual Color Sorter is a microcontroller-based prototype that demonstrates the
 - **Continuous loop logic** with a start/stop button
 - **Modular and educational design**, suitable for prototyping and teaching
 
-## 🔧 Hardware Components
+## Hardware Components
 
 | Component           | Description                                                                 |
 |---------------------|-----------------------------------------------------------------------------|
@@ -28,7 +28,7 @@ The Dual Color Sorter is a microcontroller-based prototype that demonstrates the
 | Conveyor Belt       | Transports objects through the system                                       |
 | Power Supply        | Two 9V batteries                                                            |
 
-## 🖼️ Project Overview
+## Project Overview
 
 <p align="center">
   <img src="media/project_scheme.png" alt="Project Overview" width="500"/>
@@ -36,7 +36,7 @@ The Dual Color Sorter is a microcontroller-based prototype that demonstrates the
 
 <p align="center"><em>Figure : Overview of the Dual Color Sorter system, showing its components and layout.</em></p>
 
-## ⚙️ How It Works
+## How It Works
 
 1. The user presses a button to start the conveyor belt.
 2. An object is detected by the ultrasonic sensor.
@@ -49,14 +49,14 @@ The Dual Color Sorter is a microcontroller-based prototype that demonstrates the
 
 This cycle repeats for continuous sorting.
 
-## 🎯 Calibration
+## Calibration
 
 The color sensor is calibrated in four steps:
 1. Place the sensor on a **white** surface and press the button.
 2. Repeat for **black**, **blue**, and **orange** surfaces.
 3. The system stores RGB thresholds and calculates distances to identify color in real-time.
 
-## 🔄 Pseudocode Logic
+## Pseudocode Logic
 
 ```plaintext
 Function setup:
@@ -91,7 +91,7 @@ Function loop:
         Stop conveyor belt
 ```
 
-## 📐 Technical Specifications
+## Technical Specifications
 
 - **Conveyor Dimensions:** 26 × 4 × 4 cm
 - **System Dimensions:** 54 × 25 × 24 cm (closed), 75 × 68 × 24 cm (open)
@@ -100,7 +100,7 @@ Function loop:
 - **Operating Temperature:** 10–40°C
 - **Estimated Power Consumption:** 35W
 
-## 👥 Authors
+## Authors
 
 - **Badea Cătălin-Gabriel** — Hardware design, 3D modeling, wiring, documentation
 - **Atudosiei Andrei Cristian** — Firmware development, calibration algorithm, optimization
