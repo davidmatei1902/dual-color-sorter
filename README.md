@@ -28,7 +28,7 @@ The Dual Color Sorter is a microcontroller-based prototype that demonstrates the
 | Conveyor Belt       | Transports objects through the system                                       |
 | Power Supply        | Two 9V batteries                                                            |
 
-##  Project Overview
+##   Project Overview
 
 <p align="center">
   <img src="media/project_scheme.png" alt="Project Overview" width="500"/>
